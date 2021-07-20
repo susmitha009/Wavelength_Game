@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <script type="text/javascript" src="js/card_words.js"></script>
+	  <script type="text/javascript" src="js/game.js"></script>
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<title>Wavelength game</title>
+		<meta name="description" content="In this game players needs to guess the position of pointer according to sentence given by their team member and the words displayed. This game can be played among teams">
+		<link rel="icon" href="img/Wavelength_back.png">
+	</head>
+	<body>
+		<div id="header"></div>
+
+		<div id="mainWheel" class="">
+			<div id="pointer"></div>
+			<div id="semicircle_view" class="closed"></div>
+			<div id="wheelMarker"></div>
+		</div>
+
+		<div id="size">
+
+			<div id="scoring">
+				<div id="scoringLeft">
+					<span id="leftScore">0</span>
+					<div class="scoreButtons">
+						<button onclick="incrementScoreLeftDown()" data-team="left" class="incrementBtn scoreDown"></button>
+						<button onclick="incrementScoreLeftUp()" data-team="left" class="incrementBtn scoreUp"></button>
+					</div>
+				</div>
+				<div id="scoringRight">
+					<span id="rightScore">0</span>
+					<div class="scoreButtons">
+						<button onclick="incrementScoreRightDown()" data-team="right" class="incrementBtn scoreDown"></button>
+						<button onclick="incrementScoreRightUp()" data-team="right" class="incrementBtn scoreUp"></button>
+					</div>
+				</div>
+			</div>
+
+			<div id="cards">
+				<div id="leftCard"></div>
+				<div id="rightCard"></div>
+			</div>
+
+			<div id="controls">
+				<button onclick="spinWheel()" id="spinWheel"></button>
+				<button onmousedown="peek()" onmouseup="hide()" touchstart="peek()" id="peekWheel"></button>
+				<div id="Btn">
+					<button onclick="incrementDown1()" id="downOne" class="incrementBtn"></button>
+					<button onclick="incrementDown10()" id="downTen" class="incrementBtn"></button>
+					<button onclick="centerDial()" id="centerDial" class="incrementBtn"></button>
+					<button onclick="incrementUp10()" id="upTen" class="incrementBtn"></button>
+					<button onclick="incrementUp1()" id="upOne" class="incrementBtn"></button>
+				</div>
+				<button onclick="newCard()" id="newCard"></button>
+				<button onclick="reveal()" id="reveal"></button>
+			</div>
+		</div>
+	</body>
+</html>
