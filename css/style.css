@@ -214,24 +214,3 @@ button#upTen{
   right:1.6vw;
   top:1.2vw;
 }
-
-
-.separator {
-  border: none;
-  height: 2px; /* Adjust the separator height as needed */
-  background-color: #fff; /* Separator color */
-  margin: 20px auto; /* Add space above and below the separator */
-}
-#gameInstructions {
-  text-align: center;
-  color: blue; /* Text color for game instructions */
-  background-color: lightblue; 
-  padding: 20px; /* Add padding around the game instructions */
-}
-
-#gameInstructions h1 {
-  font-size: 24px; /* Adjust the heading font size as needed */
-}
-#gameInstructions p {
-  font-size: 32px; /* Adjust the heading font size as needed */
-}
