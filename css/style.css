@@ -222,4 +222,12 @@ button#upTen{
   background-color: #fff; /* Separator color */
   margin: 20px auto; /* Add space above and below the separator */
 }
+#gameInstructions {
+  text-align: center;
+  color: #fff; /* Text color for game instructions */
+  padding: 20px; /* Add padding around the game instructions */
+}
 
+#gameInstructions h1 {
+  font-size: 24px; /* Adjust the heading font size as needed */
+}
