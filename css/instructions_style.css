@@ -13,12 +13,12 @@ body {
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
-  font-color: darkblue;
+  font-color: maroon;
 }
 
 #instructions-text {
   font-size: 24px;
   line-height: 1.5;
-  font-color: darkblue;
+  font-color: navy;
   text-align: center;
 }
