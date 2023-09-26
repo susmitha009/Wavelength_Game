@@ -8,7 +8,7 @@ body {
   padding: 50px;
 }
 
-#instructions-heading h1{
+#instructions-container h1 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -16,7 +16,7 @@ body {
   color: blue;
 }
 
-#instructions-text p{
+#instructions-text p {
   font-size: 24px;
   line-height: 1.5;
   color: blue;
