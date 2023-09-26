@@ -1,5 +1,5 @@
 body {
-  background-color: #3498db; /* Blue background color */
+  background-color: lightblue; /* Blue background color */
   font-family: Arial, sans-serif;
 }
 
@@ -9,12 +9,16 @@ body {
 }
 
 #instructions-heading {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
+  text-align: center;
+  font-color: blue;
 }
 
 #instructions-text {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.5;
+  font-color: #ed1556;
+  text-align: center;
 }
