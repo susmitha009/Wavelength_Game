@@ -216,21 +216,9 @@ button#upTen{
 }
 
 
-#gameInstructions {
-  background-color: rgba(255, 255, 255, 0.9); /* Background color for instructions */
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px auto;
-  max-width: 80%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+.separator {
+  border: none;
+  height: 2px; /* Adjust the separator height as needed */
+  background-color: #fff; /* Separator color */
+  margin: 20px auto; /* Add space above and below the separator */
 }
-
-#gameInstructions h1 {
-  font-size: 24px; /* Adjust the font size as needed */
-}
-
-#gameInstructions p {
-  font-size: 16px; /* Adjust the font size as needed */
-  margin-bottom: 10px;
-}
-
