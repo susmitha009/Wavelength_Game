@@ -215,7 +215,7 @@ button#upTen{
   top:1.2vw;
 }
 #howToPlay{
-  text-align: center;
+  text-align: top-center;
   font-color: red;
   padding: 20px;
   font-size: 16px;
