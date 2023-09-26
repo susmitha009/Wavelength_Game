@@ -224,7 +224,8 @@ button#upTen{
 }
 #gameInstructions {
   text-align: center;
-  color: #fff; /* Text color for game instructions */
+  color: blue; /* Text color for game instructions */
+  background-color: lightblue; 
   padding: 20px; /* Add padding around the game instructions */
 }
 
