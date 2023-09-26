@@ -228,7 +228,7 @@ button#upTen{
 }
 @media screen and (max-width: 768px) {
   #howToPlay {
-    top: 10px; /* Adjust the top position for mobile screens */
+    top: 6px; /* Adjust the top position for mobile screens */
   }
 }
 
