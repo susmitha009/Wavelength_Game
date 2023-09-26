@@ -232,3 +232,6 @@ button#upTen{
 #gameInstructions h1 {
   font-size: 24px; /* Adjust the heading font size as needed */
 }
+#gameInstructions p {
+  font-size: 32px; /* Adjust the heading font size as needed */
+}
