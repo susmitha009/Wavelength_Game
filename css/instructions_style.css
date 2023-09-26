@@ -9,16 +9,16 @@ body {
 }
 
 #instructions-heading {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
-  font-color: blue;
+  font-color: darkblue;
 }
 
 #instructions-text {
   font-size: 24px;
   line-height: 1.5;
-  font-color: blue;
+  font-color: darkblue;
   text-align: center;
 }
